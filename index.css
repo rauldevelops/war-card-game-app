@@ -11,24 +11,27 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    color: white;
 }
 
-.winner-is {
-    color: white;
-    font-weight: bold;
+header {
+    align-self: stretch;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.remaining-cards {
     margin: 0;
     padding: 0;
+    font-size: 1rem;
+    padding-top: .25em;
 }
 
 button {
     background-color: #FFF100;
     cursor: pointer;
     border: none;
-}
-
-button#new-deck {
-    align-self: flex-start;
-    padding: 5px;
 }
 
 button.draw {
@@ -52,3 +55,4 @@ img.card {
     width: 100%;
     height: 100%;
 }
+
